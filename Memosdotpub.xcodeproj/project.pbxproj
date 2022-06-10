@@ -14,6 +14,7 @@
 		6A7683CC2853475400AD5C82 /* MemosdotpubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683CB2853475400AD5C82 /* MemosdotpubTests.swift */; };
 		6A7683D62853475400AD5C82 /* MemosdotpubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683D52853475400AD5C82 /* MemosdotpubUITests.swift */; };
 		6A7683D82853475400AD5C82 /* MemosdotpubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683D72853475400AD5C82 /* MemosdotpubUITestsLaunchTests.swift */; };
+		6A7683E5285347C200AD5C82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683E4285347C200AD5C82 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		6A7683D12853475400AD5C82 /* MemosdotpubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemosdotpubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A7683D52853475400AD5C82 /* MemosdotpubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemosdotpubUITests.swift; sourceTree = "<group>"; };
 		6A7683D72853475400AD5C82 /* MemosdotpubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemosdotpubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6A7683E4285347C200AD5C82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				6A7683BA2853475300AD5C82 /* MemosdotpubApp.swift */,
+				6A7683E4285347C200AD5C82 /* SceneDelegate.swift */,
 				6A7683BC2853475300AD5C82 /* ContentView.swift */,
 				6A7683BE2853475400AD5C82 /* Assets.xcassets */,
 				6A7683C02853475400AD5C82 /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				6A7683BD2853475300AD5C82 /* ContentView.swift in Sources */,
 				6A7683BB2853475300AD5C82 /* MemosdotpubApp.swift in Sources */,
+				6A7683E5285347C200AD5C82 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +429,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +459,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

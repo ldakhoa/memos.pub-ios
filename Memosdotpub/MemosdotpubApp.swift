@@ -7,11 +7,23 @@
 
 import SwiftUI
 
-@main
+@available(iOS 14.0, *)
 struct MemosdotpubApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+        }
+    }
+}
+
+@main
+struct MemosdotpubAppWrapper {
+    static func main() {
+        if #available(iOS 14.0, *) {
+            MemosdotpubApp.main()
+        }
+        else {
+            UIApplicationMain(CommandLine.argc, CommandLine.unsafeArgv, nil, NSStringFromClass(SceneDelegate.self))
         }
     }
 }
