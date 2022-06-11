@@ -155,6 +155,7 @@
 		6ADB152B2854E98100A2CEC8 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				6ADB153228550CAB00A2CEC8 /* Font+.swift */,
 				6ADB15232854E42D00A2CEC8 /* UIColor+Pallete.swift */,
 				6ADB15292854E96900A2CEC8 /* UIColor+.swift */,
 				6ADB15272854E7BF00A2CEC8 /* AssetsProvider.swift */,
@@ -194,7 +195,6 @@
 			isa = PBXGroup;
 			children = (
 				6ADB153028550BC200A2CEC8 /* HomeView.swift */,
-				6ADB153228550CAB00A2CEC8 /* Font+.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
